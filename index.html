@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Viking Realm</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Viking Realm</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#translator">Runic Translator</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="home">
+            <h2>Welcome to the Viking Realm</h2>
+            <p>Explore the ancient world of Vikings, their culture, and their legends. Join us on a journey through time and discover the history and mystery of the Norse warriors.</p>
+                        <img src="viking_ship.jpg" alt="Viking Ship" class="decorative-image">
+        </section>
+        <section id="about">
+            <h2>About Us</h2>
+            <p>We are a group of enthusiasts dedicated to preserving and sharing the rich history of the Vikings. Our mission is to educate and inspire people with the tales of Viking adventures and their way of life.</p>
+            <img src="viking_helmet.jpg" alt="Viking Helmet" class="decorative-image">
+        </section>
+        <section id="gallery">
+            <h2>Gallery</h2>
+            <div class="gallery-container">
+                <img src="viking1.jpg" alt="Viking Image 1">
+                <img src="viking2.jpg" alt="Viking Image 2">
+                <img src="viking3.jpg" alt="Viking Image 3">
+                <img src="viking4.jpg" alt="Viking Image 4">
+            </div>
+        </section>
+        <section id="translator">
+            <h2>Runic Translator</h2>
+            <textarea id="inputText" placeholder="Enter text to translate"></textarea>
+            <button onclick="translateToRunic()">Translate</button>
+            <div id="outputRunic"></div>
+        </section>
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>If you have any questions or would like to know more, feel free to contact us.</p>
+            <form>
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Viking Realm. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
+
